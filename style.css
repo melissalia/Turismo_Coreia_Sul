@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to left, rgb(231, 203, 226) , rgb(224, 140, 186)); /*Fundo com gradiente*/
+    
+}
+
+.principal { 
+    display: flex;
+    flex-direction: row;
+}
+.coluna1, .coluna2, .coluna3{
+    align-items: center; /*Alinha ao centro*/
+    margin: 1%;
+}
+
+.coluna1{
+    flex-grow: 1; /*Cria as colunas*/
+    
+}
+.coluna2{
+    flex-grow: 1;
+}
+.coluna3{
+    flex-grow: 1;
+}
+
+img{
+    width: 600px; /*Tamanho da imagem*/
+    margin: 1.5%; /*Distânciamento (Margem)*/
+    border-radius: 8px; /*Deixa a borda redonda*/
+     display: block;
+    min-width: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(80, 43, 22); /*Cor ao texto*/
+    font-size: 2.5em; /*Tamanho da letra*/
+}
+
+a:link{
+    color: rgb(58, 21, 38);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+   
+}
+
+video{
+    border-radius: 8px;
+}
+
+
+img{position:relative;top:0}
+img:hover{top:-4px;box-shadow:0 5px 5px rgb(97, 23, 23);
+   transition: all .4s ease-in-out}
